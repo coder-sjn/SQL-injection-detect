@@ -1,0 +1,65 @@
+1:  AND functionCall 2:  AND functionCall    type: normal
+1:  AND IDENT COMPARISON NUM 2:  AND IDENT COMPARISON NUM    type: normal
+1:  SEMI IDENT functionCall IDENT IDENT IDENT COMPARISON QUOTA_STRING SEMI 2:  QUOTA_STRING IDENT IDENT IDENT NUM IDENT    type: normal
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  AND NUM COMPARISON LR_BRACKET stmt functionCall    type: sql injection!
+1:  AND NUM COMPARISON functionCall functionCall 2:  AND NUM COMPARISON functionCall functionCall    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall from_clause where_clause 2:  QUOTA_STRING IDENT QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON functionCall 2:  AND NUM COMPARISON functionCall    type: normal
+1:  AND NUM COMPARISON functionCall functionCall 2:  AND NUM COMPARISON functionCall functionCall    type: sql injection!
+1:  SEMI IDENT functionCall IDENT IDENT IDENT COMPARISON QUOTA_STRING 2:  QUOTA_STRING IDENT IDENT IDENT IDENT DOT IDENT    type: normal
+1:  IDENT SEMI stmt 2:  IDENT SEMI stmt    type: normal
+1:  SEMI stmt 2:  SEMI stmt    type: normal
+1:  AND LR_BRACKET stmt functionCall from_clause 2:  AND LR_BRACKET stmt functionCall from_clause    type: sql injection!
+1:  AND LR_BRACKET stmt functionCall from_clause where_clause 2:  AND LR_BRACKET stmt functionCall from_clause where_clause    type: sql injection!
+1:  AND LR_BRACKET stmt functionCall from_clause 2:  AND LR_BRACKET stmt functionCall from_clause    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  QUOTA_STRING COMPARISON LR_BRACKET stmt 2:  QUOTA_STRING IDENT    type: normal
+1:  SEMI USE IDENT 2:  SEMI USE IDENT    type: normal
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall from_clause where_clause 2:  AND NUM COMPARISON LR_BRACKET stmt functionCall from_clause where_clause    type: sql injection!
+1:  AND LR_BRACKET stmt NUM IDENT from_clause where_clause 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND LR_BRACKET stmt NUM IDENT from_clause where_clause 2:  QUOTA_STRING IDENT QUOTA_STRING IDENT    type: sql injection!
+1:  AND LR_BRACKET stmt NUM IDENT from_clause where_clause 2:  QUOTA_STRING IDENT QUOTA_STRING IDENT QUOTA_STRING    type: sql injection!
+1:  AND LR_BRACKET stmt NUM IDENT from_clause where_clause 2:  QUOTA_STRING IDENT QUOTA_STRING IDENT QUOTA_STRING    type: sql injection!
+1:  AND LR_BRACKET stmt functionCall from_clause 2:  AND LR_BRACKET stmt functionCall from_clause    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND NUM COMPARISON LR_BRACKET stmt functionCall 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND LR_BRACKET stmt functionCall from_clause 2:  AND LR_BRACKET stmt functionCall from_clause    type: sql injection!
+1:  AND LR_BRACKET stmt NUM functionCall functionCall from_clause 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  AND LR_BRACKET stmt NUM functionCall from_clause 2:  AND LR_BRACKET stmt NUM functionCall from_clause    type: sql injection!
+1:  AND LR_BRACKET stmt NUM functionCall functionCall from_clause 2:  AND LR_BRACKET stmt NUM functionCall functionCall from_clause    type: sql injection!
+1:  SEMI stmt 2:  SEMI stmt    type: normal
+1:  SEMI stmt 2:  QUOTA_STRING IDENT QUOTA_STRING IDENT    type: normal
+1:  stmt where_clause 2:  QUOTA_STRING IDENT    type: normal
+1:  stmt where_clause 2:  stmt where_clause    type: normal
+1:  stmt 2:  stmt    type: normal
+1:  stmt 2:  stmt    type: normal
+1:  SEMI stmt 2:  SEMI stmt    type: normal
+1:  SEMI AND LR_BRACKET stmt NUM IDENT from_clause 2:  SEMI AND LR_BRACKET stmt NUM IDENT from_clause    type: sql injection!
+1:  SEMI AND LR_BRACKET stmt NUM IDENT from_clause where_clause 2:  QUOTA_STRING IDENT    type: sql injection!
+1:  SEMI stmt 2:  SEMI stmt    type: normal
+1:  AND functionCall functionCall functionCall 2:  AND functionCall functionCall functionCall    type: sql injection!
+1:  stmt 2:  stmt    type: sql injection!
+1:  order_clause 2:  order_clause    type: sql injection!
+1:  stmt from_clause 2:  stmt from_clause    type: sql injection!
+1:  stmt functionCall from_clause 2:  stmt functionCall from_clause    type: sql injection!
+1:  stmt from_clause 2:  stmt from_clause    type: sql injection!
+1:  stmt from_clause where_clause 2:  stmt from_clause where_clause    type: sql injection!
+1:  AND functionCall functionCall functionCall 2:  AND functionCall functionCall functionCall    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt 2:  AND NUM COMPARISON NUM stmt    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt 2:  AND NUM COMPARISON NUM stmt    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt functionCall 2:  AND NUM COMPARISON NUM stmt functionCall    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt functionCall 2:  AND NUM COMPARISON NUM stmt functionCall    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt functionCall 2:  AND NUM COMPARISON NUM stmt functionCall    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt functionCall from_clause 2:  AND NUM COMPARISON NUM stmt functionCall from_clause    type: sql injection!
+1:  AND functionCall functionCall functionCall 2:  AND functionCall functionCall functionCall    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt from_clause limit_clause 2:  AND NUM COMPARISON NUM stmt from_clause limit_clause    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt from_clause where_clause limit_clause 2:  AND NUM COMPARISON NUM stmt from_clause where_clause limit_clause    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt from_clause where_clause limit_clause 2:  AND NUM COMPARISON NUM stmt from_clause where_clause limit_clause    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt from_clause limit_clause 2:  AND NUM COMPARISON NUM stmt from_clause limit_clause    type: sql injection!
+1:  stmt functionCall from_clause limit_clause 2:  stmt functionCall from_clause limit_clause    type: sql injection!
+1:  AND NUM COMPARISON NUM stmt from_clause where_clause 2:  QUOTA_STRING COMPARISON IDENT COMPARISON functionCall    type: sql injection!

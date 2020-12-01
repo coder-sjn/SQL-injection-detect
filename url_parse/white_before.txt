@@ -1,0 +1,268 @@
+key = XQGL-122
+key = XQGL-122
+key = XQGL-122
+text/javascript; charset=UTF-8
+text/javascript; charset=UTF-8
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+Sapling jira
+key = HS-198
+2020-10-30 11:11:00
+2020-11-30 11:11:00
+
+key = XQGL-111
+key = XQGL-111
+2020-11-30 11:42:15
+2020-11-30 11:57
+
+2020-11-30 11:42:15
+2020-11-30 11:57
+
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+Sapling jira
+user IS anyuzhong
+assignee = currentUser()
+
+key = SA-137
+key = HS-267
+key = HS-267
+type=space and space.type=favourite order by favourite desc
+type in (page,blogpost) and id in recentlyModifiedPagesAndBlogPostsByUser(currentUser(), 0, 20)
+id in recentlyViewedContent(20, 0)
+favourite=currentUser() order by favourite desc
+2020-11-30 8:30
+2020-11-30 14:30
+2020-11-30 8:30
+2020-11-30 8:30
+2020-11-18 8:30
+2020-11-18 8:30
+key = XQGL-122
+key = XQGL-122
+2020-11-01 10:38:00
+2020-12-01 10:38:00
+
+2020-11-01 10:38:00
+2020-12-01 10:38:00
+
+2020-11-01 10:38:00
+2020-12-01 10:38:00
+
+2020-11-01 10:38:00
+2020-12-01 10:38:00
+
+2020-11-18 8:30
+2020-11-30 8:30
+Sapling jira
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+key = HS-270
+assignee = currentUser()
+
+key = SA-137
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+Sapling jira
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+key = HS-283
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+2020-11-21 00:00
+2020-11-21 23:59
+2020-10-01 00:00
+2020-11-21 23:59
+2020-11-21 16:01
+2020-11-21 16:02
+2020-11-21 16:02
+2020-11-21 16:03
+2020-11-21 16:00
+2020-11-21 16:01
+2020-11-21 16:00
+2020-11-21 16:01
+2020-11-21 15:59
+2020-11-21 16:00
+2020-11-21 15:58
+2020-11-21 15:59
+2020-11-21 15:57
+2020-11-21 15:58
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+2020-11-21 16:33
+2020-11-21 16:34
+Sapling jira
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = HS-110
+2020-10-23 17:40:00
+2020-11-23 17:40:00
+
+2020-10-23 17:40:00
+2020-11-23 17:40:00
+
+2020-10-23 17:40:00
+2020-11-23 17:40:00
+
+2020-10-23 17:40:00
+2020-11-23 17:40:00
+
+2020-10-23 17:42:00
+2020-11-23 17:42:00
+
+2020-10-23 17:42:00
+2020-11-23 17:42:00
+
+src_ip,dst_ip,src_port,dst_port,logtime|192.168.9.118,111.6.180.234,52329,80,2020-11-27 14:58:25
+src_ip,dst_ip,src_port,dst_port,logtime|192.168.9.92,112.60.8.97,53639,143,2020-11-27 15:11:34
+search (index=* OR index=_*) (index=_audit)  info=completed  action=search | eval is_searches=if(searchmatch("(action=search NOT dmauditsearch)"),1,0), is_not_searches=1-is_searches, is_modify=if(searchmatch("(action=edit_user OR action=edit_roles OR action=update)"),1,0), is_not_modify=1-is_modify | fields "_time" "host" "source" "sourcetype" "action" "info" "user" "is_searches" "is_not_searches" "is_modify" "is_not_modify"
+disabled=0 AND allow_user_selection=1
+(is_custom=1 OR name="email" OR name="script" OR name="lookup") AND disabled!=1
+disabled=0 AND allow_user_selection=1
+| stats sum(totalCount) as cnt, min(firstTime) as min, max(lastTime) as max
+| stats sum(totalCount) as cnt, min(firstTime) as min, max(lastTime) as max
+| stats sum(totalCount) as cnt, min(firstTime) as min, max(lastTime) as max
+| stats sum(totalCount) as cnt, min(firstTime) as min, max(lastTime) as max
+(((eai:type = "inputlookup-table") AND ((name != "*.kmz") AND (name != "*.kml") AND (name != "__mlspl_*"))) OR ((eai:type = "inputlookup-transform") AND (type != "geo") AND (type != "external")) OR (eai:type = "datamodel")) AND (((eai:acl.sharing="user" AND eai:acl.owner="admin") OR (eai:acl.sharing!="user")))
+disabled=0 AND allow_user_selection=1
+(is_custom=1 OR name="email" OR name="script" OR name="lookup") AND disabled!=1
+(is_custom=1 OR name="email" OR name="script" OR name="lookup") AND disabled!=1
+visible=true AND disabled=0
+%d/%m/%y %l:%M:%S.%Q %p
+%d/%m/%y %l:%M:%S.%Q %p
+%d/%m/%y %l:%M:%S.%Q %p
+visible=true AND disabled=0 AND name!=launcher
+visible=true AND disabled=0 AND name!=launcher
+Sapling jira
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+user IS anyuzhong
+assignee = currentUser()
+
+key = SA-137
+assignee = currentUser()
+
+key = SA-137
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+(index=* OR index=_*) (index=_audit)  "timestamp=11-27-2020" | eval is_searches=if(searchmatch("(action=search NOT dmauditsearch)"),1,0), is_not_searches=1-is_searches, is_modify=if(searchmatch("(action=edit_user OR action=edit_roles OR action=update)"),1,0), is_not_modify=1-is_modify | fields "_time" "host" "source" "sourcetype" "action" "info" "user" "is_searches" "is_not_searches" "is_modify" "is_not_modify"
+disabled=0 AND allow_user_selection=1
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+type=inline AND stanza=audittrail
+visible=true AND disabled=0
+search index=* sourcetype=audittrail
+type=inline AND stanza=audittrail
+visible=true AND disabled=0
+( ( is_scheduled=1 AND ( alert_type!=always OR alert.track=1 OR ( dispatch.earliest_time="rt*" AND dispatch.latest_time="rt*" AND actions="*" AND actions!="" ) ) ) ) AND ( ( eai:acl.sharing="user" AND eai:acl.owner="admin" ) OR ( eai:acl.sharing!="user" ) ) AND ( disabled!=true AND (displayview="analytics_workspace" OR displayview="analysis_workspace") )
+
+( splunk_ui.track=1 ) AND ( ( eai:acl.sharing="user" AND eai:acl.owner="admin" ) OR ( eai:acl.sharing!="user" ) ) AND ( disabled!=true AND (splunk_ui.displayview="analytics_workspace" OR splunk_ui.displayview="analysis_workspace") )
+
+(((eai:type = "inputlookup-table") AND ((name != "*.kmz") AND (name != "*.kml") AND (name != "__mlspl_*"))) OR ((eai:type = "inputlookup-transform") AND (type != "geo") AND (type != "external")) OR (eai:type = "datamodel")) AND (((eai:acl.sharing="user" AND eai:acl.owner="admin") OR (eai:acl.sharing!="user")))
+name="internal_audit_logs.Audit" AND eai:type="datamodel" AND eai:acl.owner="nobody" AND eai:acl.app="search"
+key = HS-242
+key = HS-237
+key = HS-26
+key = HS-237
+key = HS-216
+key = HS-195
+key = HS-197
+key = HS-224
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = AH-3397
+key = AH-3397
+key = AH-3397
+key = AH-3397
+key = AH-3397
+key = AH-3397
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = XQGL-57
+key = AH-3532
+issue-key IS AH-3532
+key IS AH
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+| sort 20 "info"
+| sort 20 - "info"
+| sort 20 "info"
+| sort 20 - "info"
+visible=true AND disabled=0
+type=inline AND stanza=audittrail
+ | fields _raw | fields - _time
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = HS-198
+Sapling jira
+assignee = currentUser() AND resolution = unresolved ORDER BY priority DESC, created ASC
+key = AH-3397
+2020-10-24 09:56:00
+2020-11-24 09:56:00
+
+2020-10-24 10:04:00
+2020-11-24 10:04:00
+
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
+| from datamodel:"internal_audit_logs.Audit"
+disabled=0 AND allow_user_selection=1
